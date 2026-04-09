@@ -180,15 +180,15 @@ body {
 
 /* Replace these with your actual hero images */
 .slide-1 {
-  background-image: url("/images/image 13.png");
+  background-image: url("/images/bg1.png");
   animation-delay: 0s;
 }
 .slide-2 {
-  background-image: url("/images/image 14.png");
+  background-image: url("/images/bg2.png");
   animation-delay: 5s;
 }
 .slide-3 {
-  background-image: url("/images/Property 1=Frame 3.png");
+  background-image: url("/images/bg3.png");
   animation-delay: 10s;
 }
 

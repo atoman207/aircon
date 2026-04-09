@@ -1944,7 +1944,14 @@ details[open] .arrow {
 }
 
 .contact-section {
-  background-color: var(--bg-teal);
+  background-image: linear-gradient(
+      rgba(17, 56, 67, 0.68),
+      rgba(17, 56, 67, 0.68)
+    ),
+    url("/images/contact up bg.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
   padding: 60px 20px;
   font-family: sans-serif;
   color: var(--text-white);

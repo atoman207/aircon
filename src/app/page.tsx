@@ -24,7 +24,7 @@ export default function Home() {
             </div>
 
             <div className="btn-group">
-              <a href="#" className="btn btn-line">LINE相談</a>
+              <a href="/line" className="btn btn-line">LINE相談</a>
               <a href="#contact-right" className="btn btn-quote">無料お見積り</a>
             </div>
           </div>
@@ -45,7 +45,7 @@ export default function Home() {
               <Image src="/images/Star 1.png" alt="Star" className="badge-icon-img" width={24} height={24} />
             </div>
             <div className="badge-text">
-              <b>満足度 98.5%</b><br />年間1万件以上の実績
+              <b>年間5000台実績</b><br />【関東圏】対応
             </div>
           </div>
 
@@ -59,10 +59,14 @@ export default function Home() {
           </div>
 
           <div className="hero-content">
-            <span className="sub-tag">内部まで丁寧に洗浄</span>
-            <h1>気軽に頼める<span className="highlight">エアコ<br />ン洗浄</span>クリーンエアー</h1>
-            <p className="description">
-              プロによる分解洗浄でカビ・臭いを徹底除去。お近くの提携業者<br />から最適なプロをご案内します。
+            <h1 className="hero-main-title">
+              エアコンのニオイ・カビを<span className="highlight">徹底洗浄</span>！
+            </h1>
+            <p className="description hero-lead">
+              プロの分解クリーニングで空気をキレイに
+            </p>
+            <p className="hero-trustline">
+              【関東圏】対応｜即日OK｜年間5000台実績
             </p>
 
             <div className="cta-buttons">
@@ -72,16 +76,16 @@ export default function Home() {
               <a href="#" className="btn-large btn-orange-quote">無料お見積りはこちら</a>
             </div>
 
-            <div className="line-footer">
+            <a href="/line" className="line-footer">
               <Image src="/images/SVG (1).png" alt="" className="line-icon-img" width={20} height={20} />
               <span>LINEでもお気軽にご相談ください</span>
-            </div>
+            </a>
           </div>
 
           <div className="feature-bar">
             <div className="feature-text">
-              <h3>全国対応</h3>
-              <p>提携業者ネットワーク</p>
+              <h3>関東圏対応</h3>
+              <p>首都圏エリア対応</p>
             </div>
             <div className="feature-text">
               <h3>最短即日</h3>
@@ -394,6 +398,22 @@ export default function Home() {
           <h3>丁寧なカスタマー対応</h3>
           <p>お問い合わせから施工完了まで、当社が丁寧にサポートします。</p>
         </div>
+
+        <div className="feature-card">
+          <div className="icon-circle-ele">
+            <Image src="/images/SVG (6).png" alt="分解対応" width={42} height={42} />
+          </div>
+          <h3>完全分解対応</h3>
+          <p>内部まで丁寧に分解し、汚れやカビを徹底洗浄します。</p>
+        </div>
+
+        <div className="feature-card">
+          <div className="icon-circle-ele">
+            <Image src="/images/SVG (10).png" alt="損害保険" width={42} height={42} />
+          </div>
+          <h3>損害保険加入済み</h3>
+          <p>万が一の際も安心。提携業者は損害保険に加入しています。</p>
+        </div>
       </div>
 
       <div className="container-area">
@@ -593,6 +613,17 @@ export default function Home() {
         <details className="faq-item">
           <summary>
             <div className="q-icon">Q</div>
+            <span className="question-text">水は使いますか？</span>
+            <svg className="arrow" viewBox="0 0 24 14"><path d="M2 2l10 10L22 2"/></svg>
+          </summary>
+          <div className="answer">
+            お風呂場orベランダor玄関前などで水道をお借りします。
+          </div>
+        </details>
+
+        <details className="faq-item">
+          <summary>
+            <div className="q-icon">Q</div>
             <span className="question-text">どれくらい時間がかかりますか？</span>
             <svg className="arrow" viewBox="0 0 24 14"><path d="M2 2l10 10L22 2"/></svg>
           </summary>
@@ -656,7 +687,7 @@ export default function Home() {
               </div>
             </div>
 
-            <div className="info-card line">
+            <a href="/line" className="info-card line info-card-line-link">
               <div className="icon-circle">
                 <Image src="/images/SVG (18).png" alt="LINE Icon" width={36} height={36} />
               </div>
@@ -664,7 +695,7 @@ export default function Home() {
                 <p style={{margin:0, fontSize:14, fontWeight:"bold"}}>LINEでのお問い合わせ</p>
                 <p style={{margin:"5px 0 0 0", fontSize:12, opacity:0.9}}>LINEでもお気軽にご相談いただけます。<br />写真を送っていただくとスムーズです。</p>
               </div>
-            </div>
+            </a>
           </div>
 
           <div className="contact-right">

@@ -2,8 +2,10 @@ import type { Metadata } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "クリーンエアー - エアコン洗浄サービス",
-  description: "プロによる分解洗浄でカビ・臭いを徹底除去。お近くの提携業者から最適なプロをご案内します。",
+  title:
+    "エアコンのニオイ・カビを徹底洗浄！プロの分解クリーニングで空気をキレイに｜【関東圏】対応｜即日OK｜年間5000台実績",
+  description:
+    "エアコンのニオイ・カビを徹底洗浄！プロの分解クリーニングで空気をキレイに。【関東圏】対応｜即日OK｜年間5000台実績。エアコンクリーンナビ。",
   icons: {
     icon: "/images/Link - ホーム.png?v=1",
     shortcut: "/images/Link - ホーム.png?v=1",

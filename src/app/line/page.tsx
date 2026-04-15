@@ -22,18 +22,38 @@ export default function LinePage() {
         <p className="line-page-label">CONTACT</p>
         <h1 className="line-page-title">LINEでお問い合わせ</h1>
         <p className="line-page-lead">
-          QRコードをカメラで読み取るか、下のボタンからLINEを開いて友だち追加してください。
+          QRコードを読み取るか、下のURL・ボタンからLINEを開いて友だち追加してください。
+        </p>
+
+        <p className="line-page-url-line">
+          <span className="line-page-url-label">友だち追加URL</span>
+          <a
+            href={LINE_ADD_FRIEND_URL}
+            className="line-page-url"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            {LINE_ADD_FRIEND_URL}
+          </a>
         </p>
 
         <div className="line-page-qr-wrap">
-          <Image
-            src="/images/QR.PNG"
-            alt="LINE友だち追加用QRコード"
-            width={280}
-            height={280}
-            priority
-            className="line-page-qr"
-          />
+          <a
+            href={LINE_ADD_FRIEND_URL}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="line-page-qr-link"
+            aria-label="LINE友だち追加ページを開く"
+          >
+            <Image
+              src="/images/QR.PNG"
+              alt="LINE友だち追加用QRコード（タップで開く）"
+              width={280}
+              height={280}
+              priority
+              className="line-page-qr"
+            />
+          </a>
         </div>
 
         <a
@@ -46,7 +66,7 @@ export default function LinePage() {
         </a>
 
         <p className="line-page-note">
-          スマートフォンではLINEアプリが起動します。PCではブラウザでLINEが開きます。
+          スマートフォンではLINEアプリが起動します。PCではブラウザでLINEが開きます。QRとリンクは同じ友だち追加先です。
         </p>
       </main>
     </div>

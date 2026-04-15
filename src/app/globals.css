@@ -2089,7 +2089,52 @@ a.info-card-line-link:hover {
   font-size: 15px;
   line-height: 1.7;
   color: #555;
-  margin: 0 0 28px;
+  margin: 0 0 20px;
+}
+
+.line-page-url-line {
+  margin: 0 0 24px;
+  padding: 14px 16px;
+  background: #f4fbf9;
+  border: 1px solid #c5e8e2;
+  border-radius: 12px;
+  text-align: left;
+  max-width: 420px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.line-page-url-label {
+  display: block;
+  font-size: 12px;
+  font-weight: 700;
+  color: #2a8f86;
+  margin-bottom: 8px;
+  letter-spacing: 0.04em;
+}
+
+a.line-page-url {
+  font-size: 14px;
+  font-weight: 600;
+  color: #06c755;
+  word-break: break-all;
+  text-decoration: underline;
+}
+
+a.line-page-url:hover {
+  color: #049948;
+}
+
+.line-page-qr-link {
+  display: inline-block;
+  line-height: 0;
+  border-radius: 12px;
+  transition: box-shadow 0.2s ease, transform 0.2s ease;
+}
+
+.line-page-qr-link:hover {
+  box-shadow: 0 8px 24px rgba(6, 199, 85, 0.25);
+  transform: scale(1.02);
 }
 
 .line-page-qr-wrap {

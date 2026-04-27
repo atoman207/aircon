@@ -61,7 +61,7 @@ body {
 
 .phone-label {
   font-size: 11px;
-  color: #4da6a0;
+  color: #06c755;
   font-weight: bold;
   margin-bottom: 2px;
 }
@@ -70,7 +70,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  color: #4da6a0;
+  color: #06c755;
   text-decoration: none;
   font-size: 24px;
   font-weight: bold;
@@ -81,7 +81,7 @@ body {
   height: 22px;
   margin-right: 8px;
   fill: none;
-  stroke: #4da6a0;
+  stroke: #06c755;
   stroke-width: 2.5;
   stroke-linecap: round;
   stroke-linejoin: round;
@@ -108,13 +108,39 @@ body {
 }
 
 .btn-line {
-  border: 1.5px solid #f9a021;
-  color: #f9a021;
-  background-color: #fff;
+  border: 1.5px solid #06c755;
+  color: #ffffff;
+  background-color: #06c755;
+  box-shadow: 0 6px 14px rgba(6, 199, 85, 0.28);
+  position: relative;
+  overflow: hidden;
+  transition:
+    transform 0.25s ease,
+    box-shadow 0.25s ease,
+    background-color 0.25s ease;
 }
 
 .btn-line:hover {
-  background-color: #fffaf2;
+  background-color: #05b34b;
+  transform: translateY(-2px);
+  box-shadow: 0 10px 20px rgba(6, 199, 85, 0.35);
+}
+
+.btn-line::before {
+  content: "";
+  position: absolute;
+  top: -120%;
+  left: -40%;
+  width: 36%;
+  height: 340%;
+  background: rgba(255, 255, 255, 0.3);
+  transform: rotate(25deg);
+  transition: left 0.45s ease;
+  pointer-events: none;
+}
+
+.btn-line:hover::before {
+  left: 120%;
 }
 
 .btn-quote {
@@ -344,7 +370,7 @@ h1 {
 }
 .btn-white-phone {
   background: #fff;
-  color: #ff9500;
+  color: #06c755;
 }
 .btn-orange-quote {
   background: #ff9500;
@@ -364,18 +390,26 @@ h1 {
 }
 
 a.line-footer {
-  color: inherit;
+  color: #ffffff;
+  font-weight: 700;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.35);
+  position: relative;
   text-decoration: none;
   cursor: pointer;
-  transition: opacity 0.2s ease;
+  transition:
+    color 0.2s ease,
+    transform 0.2s ease;
 }
 
 a.line-footer:hover {
-  opacity: 0.9;
+  color: #06c755;
+  transform: translateY(-1px);
 }
 
 .line-icon-img {
   width: 20px;
+  filter: brightness(0) saturate(100%) invert(56%) sepia(90%) saturate(1884%)
+    hue-rotate(93deg) brightness(99%) contrast(101%);
 }
 
 /* --- 5. FEATURE BAR --- */

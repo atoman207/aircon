@@ -298,7 +298,7 @@ export default function Home() {
                 <li>カビ・雑菌除去</li>
                 <li>完全乾燥</li>
               </ul>
-              <a href="#" className="btn-outline">お見積りはちら</a>
+              <a href="#" className="btn-outline">お見積もりはこちら</a>
             </div>
 
             <div className="price-card featured">
@@ -315,7 +315,7 @@ export default function Home() {
                 <li>カビ・雑菌除去</li>
                 <li>完全乾燥</li>
               </ul>
-              <a href="#" className="btn-filled">お見積りはちら</a>
+              <a href="#" className="btn-filled">お見積もりはこちら</a>
             </div>
 
             <div className="price-card">
@@ -329,7 +329,7 @@ export default function Home() {
                 <li>カビ・雑菌除去</li>
                 <li>完全乾燥</li>
               </ul>
-              <a href="#" className="btn-outline">お見積りはちら</a>
+              <a href="#" className="btn-outline">お見積もりはこちら</a>
             </div>
           </div>
 

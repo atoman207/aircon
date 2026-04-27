@@ -13,13 +13,13 @@ export default function Home() {
           <div className="actions-wrapper">
             <div className="phone-container">
               <div className="phone-label">無料相談・今すぐ電話</div>
-              <a href="tel:0120000000" className="phone-number">
+              <a href="tel:0120996277" className="phone-number">
                 <svg className="phone-icon-svg" viewBox="0 0 24 24">
                   <path
                     d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.81 12.81 0 0 0 .62 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.62A2 2 0 0 1 22 16.92z"
                   ></path>
                 </svg>
-                0120-000-000
+                0120996277
               </a>
             </div>
 
@@ -70,8 +70,8 @@ export default function Home() {
             </p>
 
             <div className="cta-buttons">
-              <a href="tel:0120000000" className="btn-large btn-white-phone">
-                <Image src="/images/Group 1314.png" alt="" className="btn-icon-img" width={50} height={50} /> 0120-000-000
+              <a href="tel:0120996277" className="btn-large btn-white-phone">
+                <Image src="/images/Group 1314.png" alt="" className="btn-icon-img" width={50} height={50} /> 0120996277
               </a>
               <a href="#" className="btn-large btn-orange-quote">無料お見積りはこちら</a>
             </div>
@@ -682,7 +682,7 @@ export default function Home() {
               </div>
               <div className="card-text">
                 <p style={{margin:0, fontSize:14}}>お電話でのお問い合わせ</p>
-                <p className="phone-num">0120-000-000</p>
+                <p className="phone-num">0120996277</p>
                 <p style={{margin:0, fontSize:12, opacity:0.9}}>受付時間：9:00〜20:00（年中無休）</p>
               </div>
             </div>
